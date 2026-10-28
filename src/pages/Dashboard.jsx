@@ -111,6 +111,7 @@ function Dashboard({ session }) {
             placeholder="Descrivi dettagliatamente il tuo progetto, il mercato di riferimento e il target di clienti..."
             required
             minLength={30}
+            maxLength={400}
             className={styles["idea-textarea"]}
           />
         </div>
